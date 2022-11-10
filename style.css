@@ -1,0 +1,160 @@
+.title,
+.header,
+.footer{
+    background-color: #1F2937;
+    padding: 14px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 500px;
+    padding-bottom: 100px;
+}
+
+.header .text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.title{
+    height: 300px;
+    padding: 0 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title .left .main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.title .right img{
+    width: 450px;
+    height: 200px;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 4px 18px;
+    border-radius: 6px;
+}
+
+.title .signup{
+    border-color: #3882F6;
+}
+
+.up{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.info img{
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.info .text{
+    width: 100px;
+}
+
+
+.quote{
+    margin-top: 26px;
+    background-color: #E5E7EB;
+    padding: 32px 400px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote .author{
+    font-weight: bolder;
+    text-align: right;
+}
+
+
+.container{
+    background-color: #3882F6;
+    margin: auto;
+    margin-top: 50px;
+    width: 45%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.contain{
+    padding: 14px 0;
+    padding-left: 100px;
+    align-content: center;
+}
+
+.signing{
+    padding-top: 40px;
+    padding-right: 140px;
+}
+
+.container .signup{
+    border-color: #F9FAF8;
+}
+
+.action{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding: 0 16px;
+}
+
+
+a,
+.title .left .secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #F9FAF8;
+}
